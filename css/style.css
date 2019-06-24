@@ -6,11 +6,12 @@ button,
 h2,
 a {
   font-family: "Playfair Display", serif;
-  font-size: 14pt;
+  font-size: 14px;
   color: #626262;
   font-weight: 400;
   line-height: 24px;
 }
+
 .wrapper {
   width: 900px;
   margin: 0 auto;
@@ -38,6 +39,14 @@ a {
 
 /*ARTICLES*/
 
+.category {
+  margin-top: 30px;
+  margin-bottom: 27px;
+  color: #B4AD9E;
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
+
 .articles {
   font-size: 0;
 }
@@ -47,7 +56,7 @@ a {
   width: 420px;
   font-size: 14px;
   margin-right: 60px;
-  margin-bottom: 98px;
+  margin-bottom: 135px;
 }
 
 .post:nth-child(even) {
@@ -59,24 +68,9 @@ a {
   width: 100%;
 }
 
-.category {
-  margin-top: 47px;
-  margin-bottom: 30px;
-}
-
-.post .category {
-  font: 300 14px "Ubuntu", sans-serif;
-  color: 626262;
-  text-transform: uppercase;
-  color: #626262;
-  margin-top: 26px;
-  margin-bottom: 30px;
-}
-
 .post h2 {
   font-size: 30px;
   margin-bottom: 35px;
-  color: #b4ad9e;
 }
 
 .btn-view-more {
